@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+        h1 {
+            margin: 20px 0;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .gallery img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>Tree Photo Gallery</h1>
+    <div class="gallery">
+        <!-- Replace with actual image URLs -->
+        <img src="https://s3-eu-west-1.amazonaws.com/blog-ecotree/blog/0001/01/ad46dbb447cd0e9a6aeecd64cc2bd332b0cbcb79.jpeg" alt="Tree 1">
+        <img src="https://www.monstertreeservice.com/cms/thumbnails/24/1080x540/images/articles/MTS_OUW_FiveTypesofFastGrowingTrees_BlogPhoto_Jun23_20230531.jpg" alt="Tree 2">
+        <img src="https://images.rewildingbritain.org.uk/images/00007444-Beech-tree-in-autumn-James-Warwick-Wildscreen.jpg?auto=format&crop=focalpoint&domain=images.rewildingbritain.org.uk&fit=crop&fp-x=0.5&fp-y=0.5&h=418&ixlib=php-3.3.1&q=82&w=800" alt="Tree 3">
+        <img src="https://www.victoria.ca/sites/default/files/styles/16_9_sidebar_banner/public/2023-10/Urban%20Forest.jpg?h=148742b8&itok=tp4NsslZ" alt="Tree 4">
+        <img src="https://images.immediate.co.uk/production/volatile/sites/10/2019/10/2048x1365-Trees-for-autumn-colour-GettyImages-471903735-7e8763a.jpg?resize=768,574" alt="Tree 5">
+        <img src="https://hips.hearstapps.com/hmg-prod/images/red-bud-by-a-gravel-road-royalty-free-image-1682006631.jpg?crop=0.88743xw:1xh;center,top&resize=1200:*" alt="Tree 6">
+        <img src="https://ensia.com/wp-content/uploads/2023/09/iStock-1409713750-e1696358649185-920x458.jpg" alt="Tree 7">
+        <img src="https://www.fasttreeremovalatlanta.com/wp-content/uploads/old-tree.jpg" alt="Tree 8">
+        <img src="https://cdn.britannica.com/31/60431-050-F8BD9C1B/Joshua-tree-tallest-yuccas.jpg" alt="Tree 9">
+        <img src="https://cdn.shopify.com/s/files/1/0778/2679/files/christmas_tree_image_1024x1024.jpg?16688787952827883668" alt="Tree 10">
+        <img src="https://cdn.shopify.com/s/files/1/0059/8835/2052/articles/Screen_Shot_2022-01-07_at_3.42.50_PM.png?v=1725993942" alt="Tree 11">
+         <img src="https://torrestreeservicellc.com/wp-content/uploads/2024/05/red-oak-tree-in-Texas-scaled.jpg" alt="Tree 12">
+       
+    </div>
+</body>
+</html>
